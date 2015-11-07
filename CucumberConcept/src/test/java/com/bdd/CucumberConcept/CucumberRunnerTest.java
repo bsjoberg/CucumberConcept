@@ -10,6 +10,6 @@ import cucumber.api.junit.Cucumber;
 		plugin = {"pretty", "html:target/cucumber"},
 		features = "src/test/resources"
 		)
-public class CucumberRunner {
+public class CucumberRunnerTest {
 
 }

@@ -36,7 +36,7 @@ public class ContactFormSteps {
 	}
 
 	@Then("^I should see everything is ok$")
-	public void checkValidateMessage() throws Throwable {
+	public void testValidateMessage() throws Throwable {
 		String message = driver.findElement(By.className("bs-callout-info")).getText();
 		Assert.assertTrue(message.contains("Yay!"));
 		driver.quit();
@@ -49,7 +49,7 @@ public class ContactFormSteps {
 	}
 
 	@Then("^I should see error$")
-	public void checkInvalidMessage() throws Throwable {
+	public void testInvalidMessage() throws Throwable {
 		String message = driver.findElement(By.className("bs-callout-warning")).getText();
 		Assert.assertTrue(message.contains("Oh snap"));
 		driver.quit();
