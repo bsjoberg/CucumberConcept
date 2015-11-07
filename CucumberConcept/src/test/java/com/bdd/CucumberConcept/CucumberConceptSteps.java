@@ -7,20 +7,17 @@ import cucumber.api.java.en.When;
 
 public class CucumberConceptSteps {
 	@Given("^I navigated to the zoo website$")
-	public void i_navigated_to_the_zoo_website() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	public void shouldNavigateToZoo() throws Throwable {
+		System.out.println("executed the navigate to zoo method");
 	}
 
 	@When("^I click on the adoption link$")
-	public void i_click_on_the_adoption_link() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	public void shouldClickOnAdoption() throws Throwable {
+		System.out.println("executed the click on adoption method");
 	}
 
 	@Then("^I check to see that no animals are available$")
-	public void i_check_to_see_that_no_animals_are_available() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	public void checkAnimalStringVisible() throws Throwable {
+		System.out.println("check no animal string was visible");
 	}
 }
