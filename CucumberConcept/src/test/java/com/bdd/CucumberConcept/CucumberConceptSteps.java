@@ -6,20 +6,20 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class CucumberConceptSteps {
-	@Given("^this is my first step$")
-	public void this_is_my_first_step() throws Throwable {
+	@Given("^I navigated to the zoo website$")
+	public void i_navigated_to_the_zoo_website() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new PendingException();
 	}
 
-	@When("^this is my second step$")
-	public void this_is_my_second_step() throws Throwable {
+	@When("^I click on the adoption link$")
+	public void i_click_on_the_adoption_link() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new PendingException();
 	}
 
-	@Then("^this is my final step$")
-	public void this_is_my_final_step() throws Throwable {
+	@Then("^I check to see that no animals are available$")
+	public void i_check_to_see_that_no_animals_are_available() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new PendingException();
 	}
